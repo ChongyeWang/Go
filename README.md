@@ -19,4 +19,4 @@ This is a board game android app developed using android studio.
 
 • Black's initial advantage of moving first is offset by komi. In this app, we will set the value of komi to 6.5.
 
-• This app can be found on Google Play.(Name : Go chess(围棋))
+• This app can be found on Google Play.(Name : Go Chess(围棋))
