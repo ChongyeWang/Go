@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_rules"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF">>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="50dp"
+                android:text="Rules"
+                android:textColor="#000000"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:text="1.The game starts with an empty board."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:text="2.Black makes the first move, after which white and black alternate."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:text="3.A move consists of placing one stone of one's own color on an empty intersection on the board."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:text="4.A player may pass their turn at any time."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:text="5.The empty points which are horizontally and vertically adjacent to a stone, or a solidly connected string of stones, are known as liberties. At the edge of the board a stone has only three liberties. A stone in the corner has only two liberties. An isolated stone or solidly connected string of stones is captured when all of its liberties are occupied by enemy stones. "/>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/liberty"
+                android:layout_gravity="center"/>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/remove"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:text="6.Stones occupying adjacent points constitute a solidly connected string. Only stones which are horizontally or vertically adjacent are solidly connected; diagonals do not count as connections."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:text="7.A string of stones is treated as a single unit. As with isolated stones, a string is captured when all of its liberties are occupied by enemy stones. "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:text="8.A player may not self-capture, that is play a stone into a position where it would have no liberties or form part of a string which would thereby have no liberties, unless, as a result, one or more of the stones surrounding it is captured."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:text="9.An eye is an empty point or group of points surrounded by one player's stones. Any string or group of stones which has two or more eyes is permanently safe from capture and is referred to as a live string or live group. Conversely, a string of stones which is unable to make two eyes, and is cut off and surrounded by live enemy strings, is called a dead string since it is hopeless and unable to avoid eventual capture."/>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/eyes"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:text="10.Players are not allowed to make a move that returns the game to the previous position. This rule, called the ko rule, prevents unending repetition."/>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/ko"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:text="11.There is an exception to the requirement that a group must have two eyes to be alive, a situation called seki (or mutual life). Where different colored groups are adjacent and share liberties, the situation may reach a position when neither player wants to move first, because doing so would allow the opponent to capture; in such situations therefore both players' stones remain on the board in mutual life."/>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/seki"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:text="12.The game ends when both players have passed consecutively. The final position is the position on the board at the time the players pass consecutively."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:text="13.A player's area consists of all the points the player has either occupied or surrounded. The player with more area wins."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:text="14.Black's initial advantage of moving first can be offset by komi (compensation points): a fixed number of points, agreed before the game, added to White's score at the end of the game. Here, we will set the value of komi to 6.5."/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
