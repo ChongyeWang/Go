@@ -10,7 +10,6 @@ This is a board game android app developed using android studio.
 
 • Support two players playing and single player playing with AI.
 
-• Published to Google Play.
 
 # Note
 
@@ -19,3 +18,5 @@ This is a board game android app developed using android studio.
 • This app supports counting method and situation evaluation method.
 
 • Black's initial advantage of moving first is offset by komi. In this app, we will set the value of komi to 6.5.
+
+• This app can be found on Google Play. (Go chess(围棋））
