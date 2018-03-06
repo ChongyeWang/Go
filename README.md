@@ -6,7 +6,7 @@ Chongye Wang
 
 This is a board game android app developed using android studio.
 
-# Functions
+# Uses
 
 • Provides introduction to GO and tutorial series for beginners.
 
