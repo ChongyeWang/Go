@@ -1,4 +1,6 @@
 # Go
+
+Google Play : https://play.google.com/store/apps/details?id=app.com.example.chong.go&hl=en
 # Author
 Chongye Wang
 
