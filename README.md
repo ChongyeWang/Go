@@ -2,6 +2,11 @@
 
 Google Play : https://play.google.com/store/apps/details?id=app.com.example.chong.go&hl=en
 
+
+
+
+
+
 ![Alt text](https://github.com/ChongyeWang/Go/blob/master/logo.jpg?raw=true "Logo")
 
 # Author
