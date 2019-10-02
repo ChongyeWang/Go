@@ -1,6 +1,6 @@
 # Go
 
-![Alt text](https://github.com/ChongyeWang/Go/blob/master/logo.jpg?raw=true "Logo")
+<img src="https://github.com/ChongyeWang/Go/blob/master/logo.jpg" width="40%">
 
 Google Play : https://play.google.com/store/apps/details?id=app.com.example.chong.go&hl=en
 
@@ -15,12 +15,8 @@ Chongye Wang
 
 • Support two players playing and single player playing with AI.
 
-![Alt text](https://github.com/ChongyeWang/Go/blob/master/intro.png?raw=true "Intro")
-
-![Alt text](https://github.com/ChongyeWang/Go/blob/master/page.png?raw=true "Page")
-
-![Alt text](https://github.com/ChongyeWang/Go/blob/master/tutorial.png?raw=true "Tutorial")
-
+<img src="https://github.com/ChongyeWang/Go/blob/master/intro.png" width="40%">
+<img src="https://github.com/ChongyeWang/Go/blob/master/page.png" width="40%">
 <img src="https://github.com/ChongyeWang/Go/blob/master/tutorial.png" width="40%">
 
 
