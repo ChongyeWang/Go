@@ -1,26 +1,25 @@
 # Go
 
-Google Play : https://play.google.com/store/apps/details?id=app.com.example.chong.go&hl=en
-
-
-
-
-
-
 ![Alt text](https://github.com/ChongyeWang/Go/blob/master/logo.jpg?raw=true "Logo")
+
+Google Play : https://play.google.com/store/apps/details?id=app.com.example.chong.go&hl=en
 
 # Author
 Chongye Wang
 
 # Description
 
-This is a board game android app developed using android studio.
-
-# Uses
+• This is a board game android app developed using android studio.
 
 • Provides introduction to GO and tutorial series for beginners.
 
 • Support two players playing and single player playing with AI.
+
+![Alt text](https://github.com/ChongyeWang/Go/blob/master/intro.png?raw=true "Intro")
+
+![Alt text](https://github.com/ChongyeWang/Go/blob/master/page.png?raw=true "Page")
+
+![Alt text](hhttps://github.com/ChongyeWang/Go/blob/master/tutorial.png?raw=true "Tutorial")
 
 
 # Note
