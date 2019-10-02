@@ -19,7 +19,9 @@ Chongye Wang
 
 ![Alt text](https://github.com/ChongyeWang/Go/blob/master/page.png?raw=true "Page")
 
-![Alt text](https://github.com/ChongyeWang/Go/blob/master/tutorial.png=250x250?raw=true "Tutorial")
+![Alt text](https://github.com/ChongyeWang/Go/blob/master/tutorial.png?raw=true "Tutorial")
+
+<img src="https://github.com/ChongyeWang/Go/blob/master/tutorial.png" width="40%">
 
 
 # Note
